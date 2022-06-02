@@ -27,10 +27,14 @@ export const Popup: React.FC<PopupProps> = ({
     return (
         <div className="popup">
             <div className="popup-wrapper">
-                <div className="popup-text">You sure?</div>
+                <div className="popup-text">
+                   <span>You sure?</span>
+                </div>
                 <div className="popup-button-wrapper" onClick={clickHandler}>
-                    <button className="popup-button" value={1}>Yes</button>
-                    <button className="popup-button" value={0}>No</button>
+                    {/*<button className="popup-button" value={1}>Yes</button>*/}
+                    {/*<button className="popup-button" value={0}>No</button>*/}
+                    <button className="waves-effect waves-light btn  purple darken-2"value={1}>Yes</button>
+                    <button className="waves-effect waves-light btn purple darken-2"value={0}>No</button>
                 </div>
             </div>
         </div>

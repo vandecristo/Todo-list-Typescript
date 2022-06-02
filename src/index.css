@@ -43,3 +43,52 @@ code {
   z-index: 2;
 }
 
+
+.popup {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background: rgba(75, 102, 145, 0.47);
+  z-index: 3;
+
+}
+
+.popup-wrapper{
+  width: 25%;
+  min-height: 110px;
+  min-width: 175px;
+  margin: 0 -50% 0 0;
+  background: #f2f3f6;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, .2);
+
+}
+
+.popup-text {
+  display: flex;
+  justify-content: center;
+
+}
+
+.popup-text > span {
+  margin-top: 10px;
+  margin-bottom: 25px;
+  font-weight: bold;
+  font-size: large;
+}
+
+.popup-button-wrapper {
+  display: flex;
+  justify-content: space-around;
+}
+
+.popup-button{
+
+}
+
