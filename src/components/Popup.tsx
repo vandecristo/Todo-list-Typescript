@@ -31,8 +31,6 @@ export const Popup: React.FC<PopupProps> = ({
                    <span>You sure?</span>
                 </div>
                 <div className="popup-button-wrapper" onClick={clickHandler}>
-                    {/*<button className="popup-button" value={1}>Yes</button>*/}
-                    {/*<button className="popup-button" value={0}>No</button>*/}
                     <button className="waves-effect waves-light btn  purple darken-2"value={1}>Yes</button>
                     <button className="waves-effect waves-light btn purple darken-2"value={0}>No</button>
                 </div>
